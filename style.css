@@ -130,9 +130,9 @@ table {
 }
 .sidebar {
   width: 200px;
-  height: 100vh;
+  height: 70rem;
 
-  /* padding: 20px; */
+  padding: 20px;
   background-color: #0284c7;
 }
 .dashboard {
@@ -167,7 +167,7 @@ li svg {
 /* MAIN*/
 .main {
   display: grid;
-  height: 100vh;
+  background-color: #bae6fd;
   grid-template-rows: 1fr 5fr;
 }
 
@@ -175,7 +175,11 @@ li svg {
 /* HEADER INSIDE MAIN */
 header {
   display: grid;
+  background-color: white;
   grid-template-columns: 2fr 1fr;
+}
+.top-large-logo {
+  height: 20px;
 }
 /* header top left */
 .header-top-left {
@@ -302,10 +306,10 @@ button {
 /* right hand side of main */
 .top-content h2 {
   font-weight: 600;
-
   padding-top: 20px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   padding-bottom: 20px;
+  width: 220px;
   background-color: #bae6fd;
 }
 .top-content {
