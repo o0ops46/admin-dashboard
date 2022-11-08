@@ -172,23 +172,46 @@ li svg {
 
 /* HEADER INSIDE MAIN */
 /* HEADER INSIDE MAIN */
-/* HEADER INSIDE MAIN */
 header {
-  border: 2px solid red;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
+}
+/* header top left */
+.header-top-left {
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+  padding-left: 50px;
+}
+.search-bar {
+  width: 400px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+/* header top left */
+/* header top right */
+.header-top-right {
+  /* display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr; */
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
 }
 
-/* top side of the header */
-/* top side of the header */
+.header-top-right img {
+  height: 100px;
+}
+.header-top-right svg {
+}
+.header-top-right h4 {
+  font-weight: 450;
+}
+/* header top right */
+/* HEADER INSIDE MAIN */
+/* HEADER INSIDE MAIN */
 
-/* top side of the header */
-/* top side of the header */
-/* HEADER INSIDE MAIN */
-/* HEADER INSIDE MAIN */
-/* HEADER INSIDE MAIN */
-/* MAIN*/
-/* MAIN*/
 img {
   height: 50px;
 }
